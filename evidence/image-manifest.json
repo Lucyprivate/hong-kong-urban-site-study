@@ -1,0 +1,137 @@
+{
+  "snapshot_date": "2026-09-24",
+  "images": [
+    {
+      "path": "images/urban-tissue-overview.png",
+      "stage": "urban_tissue_atlas",
+      "kind": "atlas_preview",
+      "bytes": 333687,
+      "pixels": [
+        1310,
+        927
+      ],
+      "sha256": "e0e238f81ed14bf21eac52ccaa03fffd6ce1106b4ea126ab41d3832959afd6a9",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/building-heights-before-after.png",
+      "stage": "height_enrichment_2026-09-21",
+      "kind": "data_generated_comparison",
+      "bytes": 689502,
+      "pixels": [
+        6400,
+        3300
+      ],
+      "sha256": "12f780c15d7adc812c10a55bfd14980f1df0365069a2a5b34048e0e78877da31",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/coastal-bridge-approach.png",
+      "stage": "site_enhancement_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 2199531,
+      "pixels": [
+        3200,
+        2600
+      ],
+      "sha256": "e7683b4966efc20fadfcbc02606882225db12ad2b39b836c498ff64bf4ad7ce5",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/bridge-tower-detail.png",
+      "stage": "site_enhancement_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 162142,
+      "pixels": [
+        3200,
+        1800
+      ],
+      "sha256": "fde1a9a811ab1292a2d7b354be1ddb384dd1a4a545f0415077fc0f2cbfdea27e",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/site-global-axon.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1396689,
+      "pixels": [
+        3200,
+        2200
+      ],
+      "sha256": "9fec82c9ad0b6664c3579eb9b8742eccaecb9aa3b83665ece2afb9c25b958929",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "100_RAIL_ROAD_GLOBAL_AXON"
+    },
+    {
+      "path": "images/site-global-plan.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1706292,
+      "pixels": [
+        3200,
+        3200
+      ],
+      "sha256": "fdb227d0e2b2fa1b74aaed0aecb7ac0ec4496cd550dc682c21e197e8fa3ad633",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "101_RAIL_ROAD_GLOBAL_PLAN"
+    },
+    {
+      "path": "images/tin-shui-wai-interchange.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1604576,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "2873ff05c1a39e618b8c1fb354e830bb64a57107be02033beb4afabfd7fe07d1",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "102_TSW_INTERCHANGE"
+    },
+    {
+      "path": "images/kong-sham-western-highway-crossing.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1393328,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "108f248a1936c13815bdbf739560ab7a5b0fa6ea41942b80bca640612f39ac0d",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "103_KSWH_OVER_RAIL"
+    },
+    {
+      "path": "images/long-ping-rail.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1776295,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "54476d162aaf82c998cd7cc5d97b85ffd2ee0964664a31e1e20b88288dee061e",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "104_LONG_PING_RAIL"
+    },
+    {
+      "path": "images/tsing-tin-boundary-estimate.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 768087,
+      "pixels": [
+        2800,
+        1800
+      ],
+      "sha256": "17f83f17a551004367a563850bebdd2f23b41a3612d474c16a032b48dadd82b1",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "109_TSING_TIN_BOUNDARY"
+    }
+  ]
+}
