@@ -6,6 +6,17 @@ Images are copied from the local project outputs without editing. The public fil
 
 ## Current model and tiles
 
+### Presentation views captured locally on 9 October
+
+| Image | View | Provenance |
+|---|---|---|
+| [Complete-site overview](model-native-overview.png) | Hand-selected bird's-eye angle | Final master opened in the local Rhino 8.6 GUI; existing Line drawing style; native ViewCaptureToFile at 2400 × 1230 |
+| [Urban river-corridor detail](model-native-detail.png) | Closer view of buildings, water and relief | Zoom window in the same master-model viewport; the same display mode and export resolution |
+
+Both PNGs are direct native viewport exports with no post-processing or AI redraw. The master model's SHA-256 was checked after capture and still matches the final delivery record. View changes were not saved to the source model. These presentation views are not timing samples; they do not replace the earlier benchmark evidence.
+
+### Retained model-stage evidence
+
 | Image | Stage | Provenance |
 |---|---|---|
 | [Grey-terrain site axonometric](model-gray-axon.png) | Final colour/cache model, 8 October | Native Rhino 8 capture from the third final-model run in the same-period benchmark; controlled, isolated Shaded settings, with vertex colours enabled and mesh wires disabled |
@@ -15,7 +26,7 @@ Images are copied from the local project outputs without editing. The public fil
 ![Representative D05 tile](tile-d05-line.png)
 *Grey terrain, blue water and building outlines. Building object colours are black; lit faces in this display mode need not appear uniformly black.*
 
-The two new native capture records identify inputs that match the corresponding current master/tile file hashes. Their image hashes were recomputed for this publication. The global preview uses isolated benchmark settings, rather than claiming to show the workstation's default Shaded mode. The models, settings files and raw diagnostic logs remain local.
+The retained 8 October master/tile diagnostic records identify inputs matching the corresponding current file hashes. Their image hashes were recomputed for the initial publication. The retained model-gray-axon.png uses isolated benchmark settings. It is separate from the new locally selected presentation views above. Models, settings files, full application-window proof captures and raw diagnostic logs remain local.
 
 [Model and preview](../docs/model-and-preview.md) · [Performance](../docs/model-performance.md)
 

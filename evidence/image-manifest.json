@@ -180,6 +180,62 @@
       ],
       "sha256": "47b598b28d31dafcdabf29a458c2cf63e19d65293fa03d96f8caed6038271b5b",
       "copied_without_image_changes": true
+    },
+    {
+      "path": "images/model-native-overview.png",
+      "stage": "local_rhino_presentation_capture_2026-10-09",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 743171,
+      "pixels": [
+        2400,
+        1230
+      ],
+      "sha256": "0ed87e21f9fb20eee8b2c83eebc28a266f4f8516bf5365f9da77c15ddf661811",
+      "captured_at_utc": "2026-10-09T14:14:29.190808+00:00",
+      "capture_date_local": "2026-10-09",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Complete-site bird's-eye view, with blue water in the foreground and relief behind the urban fabric.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "ai_image_generation": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
+    },
+    {
+      "path": "images/model-native-detail.png",
+      "stage": "local_rhino_presentation_capture_2026-10-09",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 2460933,
+      "pixels": [
+        2400,
+        1230
+      ],
+      "sha256": "1850eecaeee64276073074c2b20ec9cd67cdbbf1f6b92e85a8a856849075da88",
+      "captured_at_utc": "2026-10-09T14:20:39.852285+00:00",
+      "capture_date_local": "2026-10-09",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Closer urban-river corridor view, selected by a zoom window in the same master-model viewport.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "ai_image_generation": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
     }
   ]
 }

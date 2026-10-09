@@ -9,8 +9,8 @@ An AI-assisted study of a **10 × 10 km** site in north-west Hong Kong, connecti
 
 The latest local deliverables comprise a **67,196-object master model and 100 tiles of 1 × 1 km**. The final gray model combines black building attributes, gray terrain, white foundations and blue water previews. Its master and all 100 tiles were rehashed for this public update and match the final validation record.
 
-![Final gray model, overall axonometric view](images/model-gray-axon.png)
-*Native Rhino capture of the final gray model in the isolated, controlled Shaded benchmark configuration. This is the benchmark view, not the computer's default Shaded display configuration.*
+![Final site model, native Rhino overview](images/model-native-overview.png)
+*9 October 2026: the final `Overall_Site_Model.3dm` opened in the local Rhino 8.6 application. The overall bird's-eye angle was selected manually in the existing Line drawing style viewport and exported directly with native ViewCaptureToFile at 2400 × 1230. No post-processing or AI redraw; no changes were saved to the source model.*
 
 ## Project at a glance
 
@@ -36,11 +36,16 @@ Counts describe their stated stage and scope. The tiles contain 67,177 objects i
 5. **[Read the measured tradeoffs](docs/model-performance.md).** Compare the final gray model with preceding versions under a controlled native Rhino benchmark.
 6. **[Check the evidence](docs/validation.md).** Separate final-stage checks from earlier records and the current file-identity review.
 
+![Urban fabric and river, native Rhino detail](images/model-native-detail.png)
+*Urban and river detail selected manually in the same local Rhino 8.6 Line drawing style viewport on 9 October 2026. Native ViewCaptureToFile export at 2400 × 1230, with no post-processing or AI redraw; the source model was not saved with changes.*
+
 ![D05 tile in the project Line Drawing preview](images/tile-d05-line.png)
 *Native Rhino capture of tile D05 using the calibrated project Line Drawing mode. Its 1,274 buildings have black object attributes; lighting and the display mode can shade individual faces gray. This tile view is a functional preview check, not a performance sample.*
 
 ![Tile assembly index](images/tile-assembly-index.png)
 *Generated assembly diagram for the 100 one-kilometre tiles; this index is not a Rhino screenshot.*
+
+[8 October controlled Shaded benchmark capture](images/model-gray-axon.png): a separate native capture from the isolated performance-test configuration, documented in [Performance](docs/model-performance.md). It does not represent the computer's default Shaded configuration or the new presentation views above.
 
 ## Earlier study stages
 

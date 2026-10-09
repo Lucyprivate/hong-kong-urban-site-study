@@ -9,8 +9,8 @@
 
 最新本地交付包含 **67,196 个对象的总模型，以及 100 个 1 × 1 km 分块**。最终灰色模型保留黑色建筑属性、灰色地形、白色基底和蓝色水面预览。本次公开更新重新计算总模型与 100 个分块的哈希，101 份模型均与最终核验记录一致。
 
-![最终灰色模型轴测图](images/model-gray-axon.png)
-*Rhino 原生截图，使用隔离环境中的受控 Shaded 基准配置；此图展示性能测试配置，不代表本机默认 Shaded 显示设置。*
+![本机 Rhino 最终模型整体鸟瞰](images/model-native-overview.png)
+*2026 年 10 月 9 日，在本机 Rhino 8.6 实际打开最终 `Overall_Site_Model.3dm`，于已有 Line drawing style 视口手选整体鸟瞰角度，使用原生 ViewCaptureToFile 直接导出 2400 × 1230 图片。无后期处理或 AI 重绘，未向源模型保存修改。*
 
 ## 本次展示内容
 
@@ -36,11 +36,16 @@
 5. [性能记录](docs/model-performance.md)：查看最终灰色模型在受控 Rhino 原生测试中的改善和代价。
 6. [核验记录](docs/validation.md)：区分最终阶段检查、历史检查和本次文件哈希复核。
 
+![本机 Rhino 城市与河道局部](images/model-native-detail.png)
+*2026 年 10 月 9 日，在同一本机 Rhino 8.6 的 Line drawing style 视口手选城市与河道局部，使用原生 ViewCaptureToFile 直接导出 2400 × 1230 图片。无后期处理或 AI 重绘，未向源模型保存修改。*
+
 ![D05 分块 Line Drawing 预览](images/tile-d05-line.png)
 *Rhino 原生截图，使用校准后的项目 Line Drawing 模式。D05 的 1,274 个建筑对象属性为黑色，受灯光和显示模式影响，部分面仍呈灰色。此图用于功能预览检查，不属于性能样本。*
 
 ![100 个分块的拼接索引](images/tile-assembly-index.png)
 *生成的分块索引图，不是 Rhino 原生截图。*
+
+[10 月 8 日受控 Shaded 基准截图](images/model-gray-axon.png)来自独立的隔离性能测试配置，详见[性能记录](docs/model-performance.md)。它不代表本机默认 Shaded 设置，也不是上述新展示视角。
 
 ## 早期研究阶段
 

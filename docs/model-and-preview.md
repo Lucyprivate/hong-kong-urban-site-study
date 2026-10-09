@@ -4,6 +4,16 @@
 
 The final local deliverable set contains one master and **100 tiles**, covering a **10 × 10 km** site. This page describes assembly, appearance and the checks behind the public images. The model files and preview INI files remain local; this repository provides a visual and methodological record.
 
+## Native presentation captures
+
+On **9 October 2026**, the final `Overall_Site_Model.3dm` was opened in the local **Rhino 8.6** application. The overall bird's-eye and urban-river detail angles were selected manually in its existing **Line drawing style** viewport. Both images were exported directly with native **ViewCaptureToFile** at **2400 × 1230**, without post-processing or AI redraw. No changes were saved to the source model.
+
+![Final model, native Rhino overview](../images/model-native-overview.png)
+*Overall bird's-eye view selected in the local Rhino application on 9 October 2026.*
+
+![Urban and river detail, native Rhino capture](../images/model-native-detail.png)
+*Detail view from the same model and display mode. These presentation captures are separate from the 8 October performance benchmark.*
+
 ## Model extent and assembly
 
 | Property | Final stage |
@@ -37,7 +47,7 @@ The final color correction changes appearance without changing geometry. It reta
 Black building attributes do not guarantee a uniformly black face in every display mode. Lighting, shading and material handling affect what a native viewport shows.
 
 ![Final gray master in controlled Shaded](../images/model-gray-axon.png)
-*Native Rhino capture in an isolated, controlled Shaded benchmark configuration. The user's default Shaded configuration was restored after testing; this image documents the benchmark configuration.*
+*8 October 2026: native Rhino capture in an isolated, controlled Shaded benchmark configuration. The user's default Shaded configuration was restored after testing. This independent performance-test image is separate from the 9 October presentation captures above.*
 
 The local `Preview_Settings` folder provides `Line_Drawing.ini` and `Blue_Water_Preview.ini`. Import both through Rhino's display-mode settings, then select the project Line Drawing mode. Assigned water objects use the project's Blue Water Preview override. These are project display modes; the final correction did not require altering the computer's default Shaded mode.
 
@@ -60,6 +70,6 @@ The validation examined full projected coverage, holes, orientation and area, wi
 
 ## Current verification and public scope
 
-On **9 October 2026**, the master and all 100 tiles were rehashed and matched the final model-validation records. This confirms the identity of the 101 current model files. It is not a new run of the geometry, native display or performance tests. Earlier rail-crossing and closed-deck counts retain their own historical stage in [Validation](validation.md).
+On **9 October 2026**, the master and all 100 tiles were rehashed and matched the final model-validation records. This confirms the identity of the 101 current model files. The file-identity review and new native presentation captures do not rerun the geometry, display-cache validation or performance tests. Earlier rail-crossing and closed-deck counts retain their own historical stage in [Validation](validation.md).
 
 The local final package was verified at delivery. This page does not offer the package for download or imply that the current working directory is an unchanged copy of its original package layout. Machine-specific scripts and their dependencies remain local and are not presented as a portable public pipeline. Shared coursework and source data remain credited in [Sources & credits](../SOURCES.md).

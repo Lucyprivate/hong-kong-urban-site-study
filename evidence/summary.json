@@ -5,15 +5,45 @@
   "portfolio_byline": "Ewan",
   "scope": "Selected scalar summaries from existing local final-gray-model records and current file-identity checks. Models, CAD/GIS geometry, raw datasets, working scripts and full reports are not distributed.",
   "publication_verification": {
-    "current_main_and_tile_sha256_recomputed": true,
-    "final_model_files_compared": 101,
-    "final_model_files_byte_identical": 101,
-    "missing_model_files": 0,
-    "mismatching_model_files": 0,
-    "full_geometry_tests_rerun_for_publication": false,
-    "rhino_reopened_during_publication": false,
-    "new_model_generated_for_publication": false,
-    "previous_transport_checks_rerun": false
+    "initial_publication": {
+      "current_main_and_tile_sha256_recomputed": true,
+      "final_model_files_compared": 101,
+      "final_model_files_byte_identical": 101,
+      "missing_model_files": 0,
+      "mismatching_model_files": 0,
+      "full_geometry_tests_rerun_for_publication": false,
+      "rhino_reopened_during_publication": false,
+      "new_model_generated_for_publication": false,
+      "previous_transport_checks_rerun": false
+    },
+    "native_screenshot_review_2026_10_09": {
+      "date": "2026-10-09",
+      "rhino_reopened_during_publication": true,
+      "opened_in_rhino_gui": true,
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "display_mode": "Existing Line drawing style",
+      "capture_command": "ViewCaptureToFile",
+      "capture_width_px": 2400,
+      "capture_height_px": 1230,
+      "images": [
+        "images/model-native-overview.png",
+        "images/model-native-detail.png"
+      ],
+      "view_scope": "Complete site and closer urban river-corridor view.",
+      "post_processing": false,
+      "ai_image_generation": false,
+      "original_model_file_saved_or_modified": false,
+      "new_model_generated_for_publication": false,
+      "full_geometry_tests_rerun_for_screenshot_review": false,
+      "performance_tests_rerun_for_screenshot_review": false,
+      "geometry_and_performance_not_rerun": true,
+      "new_performance_samples": 0,
+      "previous_transport_checks_rerun": false,
+      "original_2026_10_08_geometry_and_12_run_benchmark_evidence_unchanged": true,
+      "original_source_report_hashes_unchanged": true,
+      "image_identity_and_provenance": "evidence/image-manifest.json"
+    }
   },
   "model": {
     "filename": "Overall_Site_Model.3dm",

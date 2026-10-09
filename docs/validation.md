@@ -4,12 +4,23 @@
 
 **Public snapshot: 9 October 2026. Model stage: the final gray complete-site model of 8 October 2026.**
 
-The current local main model and all 100 tiles were independently hashed for this publication update. All **101** match the per-file identities in the final recorded archive validation, with no missing or mismatching model. This checks the current files against the existing evidence; the publication update did not regenerate the model, rerun the geometry analysis or start Rhino.
+During the **initial publication phase**, the current local main model and all 100 tiles were independently hashed. All **101** match the per-file identities in the final recorded archive validation, with no missing or mismatching model. That initial phase checked the current files against the existing evidence without regenerating the model, rerunning the geometry or performance analysis, or starting Rhino. The later native screenshot review is recorded separately below.
 
     Local main model: Overall_Site_Model.3dm
     Bytes: 667,461,392
     SHA-256: 336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06
     Model is not distributed.
+
+## Native screenshot review: 9 October 2026
+
+For this later publication review, the final main model identified by the SHA-256 above was opened in the local **Rhino GUI**. Its existing **Line drawing style** was used to choose a complete-site view and a closer view of the urban river corridor. Both were captured with native **ViewCaptureToFile at 2,400 × 1,230 pixels**.
+
+- [Complete-site native capture](../images/model-native-overview.png)
+- [Urban river-corridor native detail](../images/model-native-detail.png)
+
+These PNGs have no post-processing or AI image generation. The original model file was not saved or modified. Image identities and capture provenance are recorded in the [image manifest](../evidence/image-manifest.json).
+
+This was a visual publication review, **not a new performance sample or a rerun of geometry validation**. The 12-run benchmark and the geometry/cache evidence dated 8 October 2026, together with their original report hashes, remain unchanged.
 
 ## Latest recorded checks
 
