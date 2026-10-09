@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-24",
+  "snapshot_date": "2026-10-09",
   "images": [
     {
       "path": "images/urban-tissue-overview.png",
@@ -132,6 +132,54 @@
       "copied_without_image_changes": true,
       "native_capture_audit_match": true,
       "named_view": "109_TSING_TIN_BOUNDARY"
+    },
+    {
+      "path": "images/model-gray-axon.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "native_rhino_capture",
+      "bytes": 363272,
+      "pixels": [
+        1280,
+        720
+      ],
+      "sha256": "e660e22c40ef909bc8034a5020be5631fc851631ac40ec9dd4d37990a9d45462",
+      "copied_without_image_changes": true,
+      "capture_report": "gray_balanced_final_3_initialized_nowires.json",
+      "capture_report_sha256": "5ff79967f44b64f3c21bf9792e8425a1a0d0543eddb45c3e48a55265d36e2f31",
+      "capture_record_input_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "capture_record_matches_current_model": true,
+      "display_context": "Isolated controlled Shaded benchmark with vertex colors enabled and mesh wires disabled",
+      "image_sha256_recomputed_during_publication": true
+    },
+    {
+      "path": "images/tile-d05-line.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "native_rhino_capture",
+      "bytes": 263531,
+      "pixels": [
+        1280,
+        720
+      ],
+      "sha256": "495046bbcdf50e894947240a991a0d3f36667bae100f3191e3c6b21a43263aba",
+      "copied_without_image_changes": true,
+      "capture_report": "final_tile_D05_line.json",
+      "capture_report_sha256": "cea093316433d4921e69943b2699063bcd5e78d3a7cc6495c9adf95b0014c56d",
+      "capture_record_input_sha256": "137cb51675051aa75595b3753698d255c68fed1b2fd5517530246578e9c506dc",
+      "capture_record_matches_current_model": true,
+      "display_context": "Project Line drawing style; native representative D05 tile diagnostic",
+      "image_sha256_recomputed_during_publication": true
+    },
+    {
+      "path": "images/tile-assembly-index.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "assembly_index",
+      "bytes": 3907702,
+      "pixels": [
+        5200,
+        5810
+      ],
+      "sha256": "47b598b28d31dafcdabf29a458c2cf63e19d65293fa03d96f8caed6038271b5b",
+      "copied_without_image_changes": true
     }
   ]
 }

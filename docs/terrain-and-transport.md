@@ -2,6 +2,8 @@
 
 [Back to the project](../README.md)
 
+This page records the **24 September 2026 transport stage**. Its crossing counts and native images remain historical evidence; they are not a fresh transport audit of the final grey-terrain model. See [Model and preview](model-and-preview.md) and [current validation](validation.md) for the later model, tile, colour and cache work.
+
 The terrain and transport work brings building massing, continuous road surfaces, coastline, inland water, bridge approaches and rail infrastructure into one 10 × 10 km scene. Source coordinates use EPSG:2326; local model coordinates subtract E=812700 and N=829600. Geometry is in metres at full scale, with a vertical factor of one. The retained print layout uses 1:10,000.
 
 ## Terrain and coastal context
@@ -14,7 +16,7 @@ The context includes a 25 m terrain mesh, coastline assembled from official mapp
 ![Conceptual pylon and cable representation](../images/bridge-tower-detail.png)
 *Pylon, deck, cables and piers clarify the bridge in the study model. Their detailed dimensions are conceptual.*
 
-## Latest railway integration
+## Railway integration recorded on 24 September 2026
 
 The latest stage follows 74 official heavy-rail source pieces and represents rail tracks, trackbeds, elevated decks and parapets, together with selected light-rail elevated segments, ground transitions and covered railway context. It adds 445 conceptual rail-support groups comprising 1,335 column and headcap objects.
 

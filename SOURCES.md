@@ -6,6 +6,8 @@ Public portfolio by **Ewan**, developed from Group 4 coursework materials suppli
 
 Rhino images are local project outputs. The height before/after plate is a data-generated line preview; the urban tissue overview is an atlas page. Each image's stage is listed in [the image index](images/README.md).
 
+The 9 October 2026 update adds the final grey-terrain site view, a representative D05 tile and the retained assembly index from the Model-stage work. The site view comes from a native Rhino 8 benchmark with an isolated, controlled Shaded configuration; the D05 view uses the project's Line drawing style. These are unchanged project images, not newly generated illustrations. The index is a composed plan/assembly guide. Local model-file identities were checked against the final recorded delivery, and current image hashes are listed in the public manifest. This publication does not rerun the original geometry or performance tests, and does not change the local application's display preferences.
+
 ## Source register
 
 These references document the sources recorded in the project. Dataset update dates, extraction dates and observation dates are different concepts.

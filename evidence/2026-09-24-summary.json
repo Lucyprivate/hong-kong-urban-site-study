@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-24",
+  "portfolio_byline": "Ewan",
+  "scope": "Selected scalar summaries from existing local project records. Models, raw data and source geometry are not distributed.",
+  "publication_verification": {
+    "model_hash_recomputed": true,
+    "selected_latest_native_capture_hashes_checked": true,
+    "full_geometry_tests_rerun_for_publication": false,
+    "rhino_reopened_during_publication": false
+  },
+  "model": {
+    "sha256": "61ce9db29a83f9338bd12e412eff830ff13f7a6652f2184b7264a014e1c76b96",
+    "bytes": 276184031,
+    "distributed": false,
+    "model_space_objects": 76302,
+    "all_objects": 76303,
+    "layers": 58,
+    "material_table_records": 55,
+    "native_rhino_version": "8.6.24101.5001",
+    "units": "Meters",
+    "vertical_exaggeration": 1.0
+  },
+  "recorded_validation": {
+    "independent_transport_success": true,
+    "native_reopen_success": true,
+    "retained_baseline_objects_checked": 72079,
+    "ground_replacement_exceptions": 1192,
+    "legacy_geometry_replacements": 30,
+    "closed_new_deck_checks": 86,
+    "invalid_objects": 0,
+    "out_of_frame_objects": 0,
+    "unexpected_objects": 0,
+    "missing_objects": 0,
+    "errors": 0,
+    "rail_module": {
+      "checks": 21,
+      "failures": 0,
+      "passed": true,
+      "method": "Exact XY triangle intersection; affine upper-bottom minus lower-rail/road-top at all polygon vertices. Rail-head envelope is 0.01m analytic mesh matching delivered rail curves."
+    },
+    "rail_ground_road": {
+      "checks": 45,
+      "failures": 0,
+      "method": "Actual affine railway deck bottom against original 25m terrain triangles clipped to road footprint, with actual local replacement terrain patches. Original terrain replaces only outside patches."
+    },
+    "native_save_equivalence": {
+      "cache_free_exact_serialization_matches": 76161,
+      "remaining_serialization_or_bbox_differences": 141,
+      "followup_exact_geometry_and_component_matches": 141,
+      "combined_model_geometries_proven": 76302
+    }
+  },
+  "height_enrichment_2026_09_21": {
+    "missing_before": 23625,
+    "accepted_total": 4511,
+    "by_method": {
+      "unresolved": 19114,
+      "official_roof_lidar_ground": 213,
+      "lidar_2020_surface": 4289,
+      "gba_predicted_height": 8,
+      "official_attributes": 1
+    },
+    "by_method_and_type": {
+      "official_roof_lidar_ground|TS": 207,
+      "official_roof_lidar_ground|OS": 6,
+      "lidar_2020_surface|TS": 3283,
+      "lidar_2020_surface|OS": 1006,
+      "gba_predicted_height|TS": 5,
+      "gba_predicted_height|OS": 3,
+      "official_attributes|TS": 1
+    },
+    "unresolved_reason_counts": {
+      "too_few_native_roof_samples": 11217,
+      "height_outside_conservative_range": 2437,
+      "low_median_surface_relief": 2784,
+      "insufficient_elevated_roof_support": 3255,
+      "registered_after_lidar_or_date_unknown": 3181,
+      "no_pixel_centres": 5566,
+      "incoherent_roof_iqr": 1119,
+      "incoherent_roof_range": 800,
+      "steep_or_incoherent_ground": 83,
+      "current_official_identity_unmatched_or_inactive": 14,
+      "conflict_with_official_absolute_roof": 1
+    },
+    "accepted_default_visible_parts": 4494,
+    "accepted_hidden_review_parts": 17
+  },
+  "urban_tissue_t2_unit_metrics": {
+    "01": {
+      "unit_cover_percent": 26.98735266952019,
+      "unit_structure_features": 15
+    },
+    "02": {
+      "unit_cover_percent": 62.57130810457576,
+      "unit_structure_features": 317
+    },
+    "03": {
+      "unit_cover_percent": 27.788146676461118,
+      "unit_structure_features": 56
+    },
+    "04": {
+      "unit_cover_percent": 19.394832987317645,
+      "unit_structure_features": 13
+    }
+  },
+  "limitations": [
+    "Geometric validity is not survey accuracy, a structural assessment or approval for construction.",
+    "Official plan geometry does not establish all deck, rail and support elevations.",
+    "C06 uses a 20.5 m schematic deck; the association of an official 15 m spot remains unresolved.",
+    "Tin Shui Wai station solid massing, local ground and approximately 104 m avoidance span remain conceptual.",
+    "Height-enrichment figures describe an earlier stage and count source parts, not independent buildings.",
+    "Historical map coverage is incomplete and no equivalent complete T1 building vector layer was available.",
+    "The local narrative crossing count of 23 is superseded here by the 21 entries in the frozen rail-module report.",
+    "The public evidence cannot reproduce the full checks without the undistributed local models and datasets."
+  ],
+  "source_reports": [
+    {
+      "report": "Rail_Grade_Separated_CheckAudit.json",
+      "role": "native_capture_and_save",
+      "bytes": 144774,
+      "sha256": "9b1ab53d1ea1512db2c766a4c0d35dc28af9acb3411a830b677eb13323b4b355",
+      "distributed": false
+    },
+    {
+      "report": "Native_Reopen_Validation.json",
+      "role": "native_reopen",
+      "bytes": 379,
+      "sha256": "451b4e027792ef8730fff74ace0b01215c5086fad9e2f7fb911807bbc1765366",
+      "distributed": false
+    },
+    {
+      "report": "independent_native_transport_check.json",
+      "role": "independent_transport_check",
+      "bytes": 3050911,
+      "sha256": "0a58785b4e451cd57571e5b5177b27a4061bbef139b41bd091b3dabcb44ede9d",
+      "distributed": false
+    },
+    {
+      "report": "rail_module_actual_QA.json",
+      "role": "rail_module_crossings",
+      "bytes": 6020,
+      "sha256": "c09b5cfc7d8e80c0cf6b868ca55472da761ca1dadc1185ed778e2c2c40ff6de6",
+      "distributed": false
+    },
+    {
+      "report": "rail_ground_road_clearance_QA.json",
+      "role": "rail_ground_road_clearance",
+      "bytes": 12441,
+      "sha256": "3b69fe851f18f4c8e441e17a3910d607d9d663ff9c51b6808408a6e38ea54385",
+      "distributed": false
+    },
+    {
+      "report": "height_evidence_summary.json",
+      "role": "height_enrichment_stage",
+      "bytes": 9816,
+      "sha256": "2c28eb9a1cf3db261e2d9bf61d90af5dbd1a730ce58b80fd5c63314c34389a1a",
+      "distributed": false
+    },
+    {
+      "report": "Analysis_metrics.json",
+      "role": "urban_tissue_metrics",
+      "bytes": 2188,
+      "sha256": "cc5b0e05f9c219d85cdc32a36ccb1ab2e97063bd265bf809d43bed70a792b590",
+      "distributed": false
+    }
+  ]
+}
