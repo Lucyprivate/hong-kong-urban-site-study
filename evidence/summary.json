@@ -1,0 +1,402 @@
+{
+  "schema_version": 2,
+  "snapshot_date": "2026-10-14",
+  "model_stage_date": "2026-10-08",
+  "portfolio_byline": "Ewan",
+  "scope": "Selected results from the final gray-model records and the 9 October file-identity review. Models, CAD/GIS geometry, data, scripts and full reports remain local.",
+  "publication_verification": {
+    "initial_publication": {
+      "current_main_and_tile_sha256_recomputed": true,
+      "final_model_files_compared": 101,
+      "final_model_files_byte_identical": 101,
+      "missing_model_files": 0,
+      "mismatching_model_files": 0,
+      "full_geometry_tests_rerun_for_publication": false,
+      "rhino_reopened_during_publication": false,
+      "new_model_generated_for_publication": false,
+      "previous_transport_checks_rerun": false
+    },
+    "native_screenshot_review_2026_10_09": {
+      "date": "2026-10-09",
+      "rhino_reopened_during_publication": true,
+      "opened_in_rhino_gui": true,
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "display_mode": "Existing Line drawing style",
+      "capture_command": "ViewCaptureToFile",
+      "capture_width_px": 2400,
+      "capture_height_px": 1230,
+      "images": [
+        "images/model-native-overview.png",
+        "images/model-native-detail.png"
+      ],
+      "view_scope": "Complete site and a closer urban-river view.",
+      "post_processing": false,
+      "ai_image_generation": false,
+      "original_model_file_saved_or_modified": false,
+      "new_model_generated_for_publication": false,
+      "full_geometry_tests_rerun_for_screenshot_review": false,
+      "performance_tests_rerun_for_screenshot_review": false,
+      "geometry_and_performance_not_rerun": true,
+      "new_performance_samples": 0,
+      "previous_transport_checks_rerun": false,
+      "original_2026_10_08_geometry_and_12_run_benchmark_evidence_unchanged": true,
+      "original_source_report_hashes_unchanged": true,
+      "image_identity_and_provenance": "evidence/image-manifest.json"
+    }
+  },
+  "model": {
+    "filename": "Overall_Site_Model.3dm",
+    "sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+    "bytes": 667461392,
+    "distributed": false,
+    "main_scene_objects": 67196,
+    "tile_object_occurrences_total": 67177,
+    "objects_retained_in_main_only": 19,
+    "final_main_and_tile_files": 101,
+    "units": "Meters",
+    "full_size_scale": 1,
+    "absolute_tolerance_m": 0.001,
+    "original_world_coordinates_retained": true,
+    "original_cameras_and_named_views_retained": true,
+    "file_format": "Rhino 7",
+    "archive_version": 70,
+    "native_test_engine": "Rhino 8.6.24101.5001",
+    "rhino7_desktop_tested": false
+  },
+  "spatial_frame": {
+    "width_m": 10000,
+    "height_m": 10000,
+    "area_km2": 100,
+    "tile_count": 100,
+    "tile_width_m": 1000,
+    "tile_height_m": 1000,
+    "row_order": "A-J, north to south",
+    "column_order": "01-10, west to east",
+    "source_crs_recorded_in_prior_snapshot": "EPSG:2326",
+    "crs_independently_read_from_native_metadata_for_this_update": false
+  },
+  "independent_reads": {
+    "model_files_read_by_opennurbs7": 101,
+    "opennurbs7_reader_version": "7.15.0",
+    "main_and_tile_geometry_attribute_occurrences_checked": 134373,
+    "all_101_reads_passed": true,
+    "double_precision_and_vertex_gray_supplementary_reader": "8.32.2",
+    "rhino7_desktop_or_ui_test_claimed": false
+  },
+  "geometry_optimization": {
+    "changed_meshes": 169,
+    "accepted_planar_regions": 68006,
+    "mesh_faces_before": 12520376,
+    "mesh_faces_after": 10756752,
+    "reduction_percent": 14.086,
+    "terrain_faces_before": 8831594,
+    "terrain_faces_after": 7086772,
+    "terrain_reduction_percent": 19.757,
+    "removed_vertices": 588918,
+    "symmetric_surface_distance_bound_m": 2.576769926318507e-07,
+    "whole_patch_plane_residual_m": 1.288384963159253e-07,
+    "user_error_limit_m": 0.001,
+    "original_seam_segments_checked": 219065,
+    "color_correction_new_geometry_error_m": 0,
+    "protected_geometry": "Buildings, railway details and rivers kept their geometry during terrain/road simplification and later color correction.",
+    "proof_scope": "The proof examines full projected coverage, holes, orientation and area in certified planar regions. It does not sample points or measure survey accuracy.",
+    "foundation_limit": "The 100 foundations keep their original open-mesh state. They are not newly closed solids."
+  },
+  "appearance": {
+    "black_building_object_attributes": 63097,
+    "gray_terrain_meshes": 84,
+    "terrain_object_rgb": [
+      190,
+      190,
+      190
+    ],
+    "saved_vertex_gray_min": 146,
+    "saved_vertex_gray_max": 198,
+    "opaque_prior_vertex_gray_shift": -50,
+    "white_foundations": 100,
+    "original_blue_water_overrides": 1069,
+    "new_line_mode_per_object_overrides": 0,
+    "new_geometry_error_from_color_correction_m": 0,
+    "material4_diffuse_gray": 190,
+    "material4_emission_gray": 0,
+    "appearance_limit": "Line drawing style shows black outlines and lit faces. Black object attributes do not make every displayed face pure black."
+  },
+  "saved_display_cache": {
+    "surface_objects": 64166,
+    "native_meshes": 75995,
+    "faces": 3548417,
+    "vertices": 4491948,
+    "standard_shaded_saved_runtime_signature_matches": 64166,
+    "calibrated_line_saved_runtime_signature_matches": 64166,
+    "directly_loaded_native_pointer_and_crc_retained": 3761,
+    "signature_scope": "UUID, mesh CRC, face/vertex counts and a double-precision mesh signature.",
+    "cache_preservation": "Ordinary Save keeps caches. SaveSmall removes them.",
+    "wheel_zoom_settings_embedded_in_model_or_ini": false
+  },
+  "representative_tile": {
+    "id": "D05",
+    "model_sha256": "137cb51675051aa75595b3753698d255c68fed1b2fd5517530246578e9c506dc",
+    "native_functional_status": "PASS",
+    "surface_objects": 1281,
+    "saved_runtime_signature_matches": 1281,
+    "cached_native_meshes": 1484,
+    "cached_faces": 72320,
+    "cached_vertices": 85505,
+    "black_building_object_attributes": 1274,
+    "gray_terrain_objects": 1,
+    "white_foundation_objects": 1,
+    "functional_timings_included_in_formal_benchmark": false
+  },
+  "same_period_native_performance": {
+    "status": "PASS",
+    "started_utc": "2026-10-08T04:27:32.557894Z",
+    "finished_utc": "2026-10-08T04:35:40.077078Z",
+    "valid_runs": 12,
+    "runs_per_version": 3,
+    "version_count": 4,
+    "native_engine": "Rhino 8.6.24101.5001",
+    "viewport_width_px": 1280,
+    "viewport_height_px": 720,
+    "same_camera": true,
+    "original_reference_translation_for_origin_alignment_only": true,
+    "user_default_shaded_changed_for_test": false,
+    "filesystem_cache": "The test hashed input files before opening, with warm operating-system caches. It did not flush the OS cache.",
+    "orders": [
+      [
+        "reference",
+        "current",
+        "cache_only",
+        "final"
+      ],
+      [
+        "current",
+        "final",
+        "reference",
+        "cache_only"
+      ],
+      [
+        "final",
+        "cache_only",
+        "current",
+        "reference"
+      ]
+    ],
+    "order_limit": "The orders give limited balancing, not a full four-position/predecessor design.",
+    "timing_units": "seconds",
+    "working_set_units": "Bytes. Decimal GB means 10^9 bytes.",
+    "rotation_frames_per_run": 3,
+    "rotation_angle_per_frame_degrees": 5,
+    "display_list_frozen": false,
+    "first_shaded_method": "The time includes cache preparation, isolated viewport initialization, native drawing/message handling and the first captured preview.",
+    "rotation_method": "Each run measures mean full redraw/message-handling time for 3 successive world-Z rotations. The result is the median of 3 run means.",
+    "combined_total_method": "The result is the median of each run's open-plus-first-Shaded time. It is not the sum of separate medians.",
+    "medians": {
+      "reference": {
+        "open_seconds": 5.9443859,
+        "first_shaded_seconds": 3.6708636,
+        "open_plus_first_shaded_seconds": 9.6152495,
+        "orbit_mean_seconds": 0.2265866,
+        "working_set_after_first_bytes": 2443550720,
+        "private_after_first_bytes": 3318276096,
+        "peak_working_set_bytes": 2472140800
+      },
+      "current": {
+        "open_seconds": 8.1562567,
+        "first_shaded_seconds": 11.8775108,
+        "open_plus_first_shaded_seconds": 19.9745196,
+        "orbit_mean_seconds": 0.2879994,
+        "working_set_after_first_bytes": 4781719552,
+        "private_after_first_bytes": 6413373440,
+        "peak_working_set_bytes": 4812349440
+      },
+      "cache_only": {
+        "open_seconds": 11.0464703,
+        "first_shaded_seconds": 8.3403724,
+        "open_plus_first_shaded_seconds": 19.4204566,
+        "orbit_mean_seconds": 0.2891744,
+        "working_set_after_first_bytes": 4673794048,
+        "private_after_first_bytes": 6314856448,
+        "peak_working_set_bytes": 4728852480
+      },
+      "final": {
+        "open_seconds": 10.8448903,
+        "first_shaded_seconds": 7.8248026,
+        "open_plus_first_shaded_seconds": 18.8339815,
+        "orbit_mean_seconds": 0.2675692333,
+        "working_set_after_first_bytes": 4534763520,
+        "private_after_first_bytes": 6122151936,
+        "peak_working_set_bytes": 4580786176
+      }
+    },
+    "final_vs_river_optimized_current": {
+      "first_shaded_reduction_percent": 34.120854682784206,
+      "rotation_reduction_percent": 7.093822649167548,
+      "open_plus_first_shaded_reduction_percent": 5.709965109749125,
+      "working_set_reduction_percent": 5.164586281449908,
+      "opening_time_increase_seconds": 2.6886335999999993,
+      "final_rotation_slower_than_reference_percent": 18.08696248292412
+    },
+    "all_12_native_samples_passed": true,
+    "final_surface_cache_reuse_all_three_runs": true,
+    "sample_limit": "Three runs per version support descriptive results. They do not establish statistical significance or guarantee speed on other machines or views."
+  },
+  "retained_earlier_gray_three_run_failure": {
+    "status": "ACCEPTANCE_FAILED",
+    "new_gray_runs": 3,
+    "comparison_baselines_reused_from_earlier_session": true,
+    "approximate_session_gap_hours": 7,
+    "prior_current_first_shaded_seconds": 11.3826032,
+    "new_gray_first_shaded_seconds": 7.9132342,
+    "prior_current_rotation_seconds": 0.2729305333,
+    "new_gray_rotation_seconds": 0.2844731333,
+    "first_shaded_reduction_percent": 30.47957430335444,
+    "rotation_change_percent": 4.229134739535656,
+    "rotation_change_direction": "slower",
+    "rotation_acceptance_passed": false,
+    "not_merged_or_deleted_by_later_same_period_comparison": true,
+    "limit": "The time-separated comparison does not isolate the cause. It establishes neither color alone nor environmental variation alone as the cause."
+  },
+  "package_history_and_current_files": {
+    "historical_final_package_files": 106,
+    "historical_final_model_files": 101,
+    "historical_zip_bytes": 693538724,
+    "historical_zip_sha256": "655498d1ed76c265a363f4bf77aa45dc2f0fa04fe0cf2d8249786c06dc301cd3",
+    "historical_archive_all_members_decompressed_sha256_and_crc_checked": true,
+    "historical_zip_present_at_former_location": false,
+    "historical_zip_distributed": false,
+    "current_local_directory_files": 107,
+    "current_local_3dm_files": 102,
+    "current_final_main_and_100_tiles_match_historical_validation": true,
+    "current_extra_file": "Rail_Grade_Separated_Rhino_Checked.3dm",
+    "current_readme_bytes": 1282,
+    "current_readme_sha256": "cf9fcb75140431b94384a29abfc122c13f4333880c1ffa9354df61dd514c9362",
+    "historical_readme_sha256": "a6f2a3193c94970be40cebe7e9983b54ac1a505c60053a178e777cd829fee990",
+    "current_readme_changed_since_historical_delivery": true,
+    "current_line_preview_ini_sha256": "ddc881f7bfb12b684956e29607a1fd455d254307f17a2b1ace32ffe14b1cc9a2",
+    "current_blue_water_preview_ini_sha256": "b2bcae69bec4f608bd9ef4911b6fe947cf3ac5358d23818185f145936308115e",
+    "current_directory_is_exact_historical_106_file_package": false
+  },
+  "historical_rail_validation": {
+    "snapshot_date": "2026-09-24",
+    "summary": "2026-09-24-summary.json",
+    "narrative": "../docs/rail-validation-2026-09-24.md",
+    "model_sha256": "61ce9db29a83f9338bd12e412eff830ff13f7a6652f2184b7264a014e1c76b96",
+    "model_bytes": 276184031,
+    "rail_module_checks": 21,
+    "rail_ground_road_checks": 45,
+    "checks_rerun_for_october_model_or_publication": false,
+    "historical_summary_byte_preserved_sha256": "ce8f66ef2462e13a4c43810be67414aafb00f9ce033f210887b1ef85d7f14936",
+    "stage_note": "The dated summary keeps earlier rail, height and urban-tissue results. These counts are not newly tested final-gray-model results."
+  },
+  "limitations": [
+    "Geometry preservation does not establish survey accuracy, structural adequacy or construction approval.",
+    "Only proven planar regions changed. The original open foundations remain open.",
+    "Native tests used Rhino 8. openNURBS 7 reads do not establish Rhino 7 desktop or interface behavior.",
+    "Three runs per version, warm caches and limited order balancing restrict performance claims.",
+    "The earlier gray-only failure remains in the record. Time gaps limit claims about its cause.",
+    "The October color/performance work did not rerun the earlier 21/45 transport checks or complete every bridge/road repair.",
+    "Models and detailed reports remain local. Public totals and hashes cannot reproduce the full tests.",
+    "The repository offers no model/archive download or general right to redistribute source data."
+  ],
+  "source_reports": [
+    {
+      "report": "completion_audit.json",
+      "role": "final_stage_completion_summary",
+      "bytes": 31282,
+      "sha256": "5fe990a7e65f675ab6de5d9801f31d53e4e5c5a1c1cf09f37f27939969f3ba5f",
+      "distributed": false
+    },
+    {
+      "report": "FINAL_REPORT.txt",
+      "role": "final_geometry_color_cache_and_performance_narrative",
+      "bytes": 15430,
+      "sha256": "274aa17e7d7198eadba18c243f899fdc56f589db8bfcd98678abac6693d9379b",
+      "distributed": false
+    },
+    {
+      "report": "package_validation.json",
+      "role": "final_package_model_validation",
+      "bytes": 30204,
+      "sha256": "a9c3efeb91e231c4b38aba7117c83f78f9f7b5ce3e49bac1bf84981d185bf5b9",
+      "distributed": false
+    },
+    {
+      "report": "package_validation.reader7.json",
+      "role": "all_101_opennurbs7_reads",
+      "bytes": 70470,
+      "sha256": "71abe59af2b982b2f358d665dd5eb5d9604f803c1d3c0f777aef05b8f9390478",
+      "distributed": false
+    },
+    {
+      "report": "package_validation.gray_reader8.json",
+      "role": "double_precision_and_terrain_gray_supplement",
+      "bytes": 67822,
+      "sha256": "b29be09f57df20e0e32d71a4ff613669c2b1f7902aa446172a88591d005c2f95",
+      "distributed": false
+    },
+    {
+      "report": "master_gray_no_override.proof.json",
+      "role": "final_color_and_zero_new_override_proof",
+      "bytes": 120897,
+      "sha256": "55f9ddef453bf60eabff8f3706878f8109de6027552aa27600519e1cbd3375db",
+      "distributed": false
+    },
+    {
+      "report": "archive_verification.json",
+      "role": "historical_archive_member_identity",
+      "bytes": 16521,
+      "sha256": "39742d4894579a53968a721dbb22e626eb8263779a7e0a5248426c1c6ff1769e",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/gray0_standard_shaded.cache-proof.json",
+      "role": "native_standard_shaded_cache_reuse",
+      "bytes": 1200,
+      "sha256": "9acfdb60313453ea5cad59d66435e4df1d58683fd0b789fd9cf4e75f4afb6759",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/gray0_line_calibrated.cache-proof.json",
+      "role": "native_calibrated_line_cache_reuse",
+      "bytes": 1200,
+      "sha256": "2f9ef0fe1d6f5ae00726c46c9262518ea206ae6f25d71edd783dc5166bd807d7",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/gray_balanced_initialized_nowires_suite.json",
+      "role": "same_period_12_run_comparison",
+      "bytes": 326044,
+      "sha256": "7d69e3a09c66e81df26285da95d4cebb2bbe63408970f2961400a38df0d1e367",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/gray_final_initialized_nowires_suite.json",
+      "role": "retained_earlier_three_gray_run_failure",
+      "bytes": 78032,
+      "sha256": "e3753e5c97f571cd4d246ac22bebdc726257c286217b3b99fe4c82dc101482ef",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/final_tile_D05_line.json",
+      "role": "representative_tile_native_function",
+      "bytes": 18574,
+      "sha256": "cea093316433d4921e69943b2699063bcd5e78d3a7cc6495c9adf95b0014c56d",
+      "distributed": false
+    },
+    {
+      "report": "native-validation/final_tile_D05_line.cache-proof.json",
+      "role": "representative_tile_cache_reuse",
+      "bytes": 1270,
+      "sha256": "3cf7fcc1fbfb16b4ce30fe215d0f3123278b4fb7d5ee3d858c08bf8a7b8410dd",
+      "distributed": false
+    },
+    {
+      "report": "model-current-file-identity-20261009.json",
+      "role": "current_main_and_100_tile_sha256_comparison",
+      "bytes": 476,
+      "sha256": "77f94b49bc31d5375e4af643782ea33b64666cc47eca50110405e2be8787481f",
+      "distributed": false
+    }
+  ]
+}

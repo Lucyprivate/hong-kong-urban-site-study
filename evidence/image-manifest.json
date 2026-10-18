@@ -1,0 +1,295 @@
+{
+  "snapshot_date": "2026-10-14",
+  "images": [
+    {
+      "path": "images/urban-tissue-overview.png",
+      "stage": "urban_tissue_atlas",
+      "kind": "atlas_preview",
+      "bytes": 333687,
+      "pixels": [
+        1310,
+        927
+      ],
+      "sha256": "e0e238f81ed14bf21eac52ccaa03fffd6ce1106b4ea126ab41d3832959afd6a9",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/building-heights-before-after.png",
+      "stage": "height_enrichment_2026-09-21",
+      "kind": "data_generated_comparison",
+      "bytes": 689502,
+      "pixels": [
+        6400,
+        3300
+      ],
+      "sha256": "12f780c15d7adc812c10a55bfd14980f1df0365069a2a5b34048e0e78877da31",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/coastal-bridge-approach.png",
+      "stage": "site_enhancement_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 2199531,
+      "pixels": [
+        3200,
+        2600
+      ],
+      "sha256": "e7683b4966efc20fadfcbc02606882225db12ad2b39b836c498ff64bf4ad7ce5",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/bridge-tower-detail.png",
+      "stage": "site_enhancement_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 162142,
+      "pixels": [
+        3200,
+        1800
+      ],
+      "sha256": "fde1a9a811ab1292a2d7b354be1ddb384dd1a4a545f0415077fc0f2cbfdea27e",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/site-global-axon.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1396689,
+      "pixels": [
+        3200,
+        2200
+      ],
+      "sha256": "9fec82c9ad0b6664c3579eb9b8742eccaecb9aa3b83665ece2afb9c25b958929",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "100_RAIL_ROAD_GLOBAL_AXON"
+    },
+    {
+      "path": "images/site-global-plan.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1706292,
+      "pixels": [
+        3200,
+        3200
+      ],
+      "sha256": "fdb227d0e2b2fa1b74aaed0aecb7ac0ec4496cd550dc682c21e197e8fa3ad633",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "101_RAIL_ROAD_GLOBAL_PLAN"
+    },
+    {
+      "path": "images/tin-shui-wai-interchange.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1604576,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "2873ff05c1a39e618b8c1fb354e830bb64a57107be02033beb4afabfd7fe07d1",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "102_TSW_INTERCHANGE"
+    },
+    {
+      "path": "images/kong-sham-western-highway-crossing.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1393328,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "108f248a1936c13815bdbf739560ab7a5b0fa6ea41942b80bca640612f39ac0d",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "103_KSWH_OVER_RAIL"
+    },
+    {
+      "path": "images/long-ping-rail.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 1776295,
+      "pixels": [
+        2800,
+        2200
+      ],
+      "sha256": "54476d162aaf82c998cd7cc5d97b85ffd2ee0964664a31e1e20b88288dee061e",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "104_LONG_PING_RAIL"
+    },
+    {
+      "path": "images/tsing-tin-boundary-estimate.png",
+      "stage": "rail_integration_2026-09-24",
+      "kind": "native_rhino_capture",
+      "bytes": 768087,
+      "pixels": [
+        2800,
+        1800
+      ],
+      "sha256": "17f83f17a551004367a563850bebdd2f23b41a3612d474c16a032b48dadd82b1",
+      "copied_without_image_changes": true,
+      "native_capture_audit_match": true,
+      "named_view": "109_TSING_TIN_BOUNDARY"
+    },
+    {
+      "path": "images/model-gray-axon.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "native_rhino_capture",
+      "bytes": 363272,
+      "pixels": [
+        1280,
+        720
+      ],
+      "sha256": "e660e22c40ef909bc8034a5020be5631fc851631ac40ec9dd4d37990a9d45462",
+      "copied_without_image_changes": true,
+      "capture_report": "gray_balanced_final_3_initialized_nowires.json",
+      "capture_report_sha256": "5ff79967f44b64f3c21bf9792e8425a1a0d0543eddb45c3e48a55265d36e2f31",
+      "capture_record_input_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "capture_record_matches_current_model": true,
+      "display_context": "Isolated controlled Shaded benchmark with vertex colors enabled and mesh wires disabled",
+      "image_sha256_recomputed_during_publication": true
+    },
+    {
+      "path": "images/tile-d05-line.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "native_rhino_capture",
+      "bytes": 263531,
+      "pixels": [
+        1280,
+        720
+      ],
+      "sha256": "495046bbcdf50e894947240a991a0d3f36667bae100f3191e3c6b21a43263aba",
+      "copied_without_image_changes": true,
+      "capture_report": "final_tile_D05_line.json",
+      "capture_report_sha256": "cea093316433d4921e69943b2699063bcd5e78d3a7cc6495c9adf95b0014c56d",
+      "capture_record_input_sha256": "137cb51675051aa75595b3753698d255c68fed1b2fd5517530246578e9c506dc",
+      "capture_record_matches_current_model": true,
+      "display_context": "Project Line drawing style; native representative D05 tile diagnostic",
+      "image_sha256_recomputed_during_publication": true
+    },
+    {
+      "path": "images/tile-assembly-index.png",
+      "stage": "model_color_cache_and_precision_2026-10-08",
+      "kind": "assembly_index",
+      "bytes": 3907702,
+      "pixels": [
+        5200,
+        5810
+      ],
+      "sha256": "47b598b28d31dafcdabf29a458c2cf63e19d65293fa03d96f8caed6038271b5b",
+      "copied_without_image_changes": true
+    },
+    {
+      "path": "images/model-native-overview.png",
+      "stage": "local_rhino_presentation_capture_2026-10-09",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 743171,
+      "pixels": [
+        2400,
+        1230
+      ],
+      "sha256": "0ed87e21f9fb20eee8b2c83eebc28a266f4f8516bf5365f9da77c15ddf661811",
+      "captured_at_utc": "2026-10-09T14:14:29.190808+00:00",
+      "capture_date_local": "2026-10-09",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Complete-site bird's-eye view, with blue water in the foreground and relief behind the urban fabric.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "ai_image_generation": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
+    },
+    {
+      "path": "images/model-native-detail.png",
+      "stage": "local_rhino_presentation_capture_2026-10-09",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 2460933,
+      "pixels": [
+        2400,
+        1230
+      ],
+      "sha256": "1850eecaeee64276073074c2b20ec9cd67cdbbf1f6b92e85a8a856849075da88",
+      "captured_at_utc": "2026-10-09T14:20:39.852285+00:00",
+      "capture_date_local": "2026-10-09",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Closer urban-river corridor view, selected by a zoom window in the same master-model viewport.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "ai_image_generation": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
+    },
+    {
+      "path": "images/model-urban-river-20261014.png",
+      "stage": "local_rhino_presentation_capture_2026-10-14",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 4347623,
+      "pixels": [
+        3840,
+        1968
+      ],
+      "sha256": "bc20a2a742f7ba140bdfd3d00fe393d78ae5579d20414c2b367333f27caf1575",
+      "captured_at_utc": "2026-10-14T14:59:45.924919+00:00",
+      "capture_date_local": "2026-10-14",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Urban river district selected by the user. Camera angle and framing adjusted in Rhino.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
+    },
+    {
+      "path": "images/model-interchange-20261014.png",
+      "stage": "local_rhino_presentation_capture_2026-10-14",
+      "kind": "native_rhino_viewport_capture",
+      "bytes": 3910375,
+      "pixels": [
+        3840,
+        1968
+      ],
+      "sha256": "c4ef95ee2f1f86d95c04b45e665a18a0ed528f288f689b035ba8d2c2ee65dda1",
+      "captured_at_utc": "2026-10-14T15:12:37.370958+00:00",
+      "capture_date_local": "2026-10-14",
+      "capture_timezone": "Asia/Shanghai",
+      "capture_application": "Local Rhinoceros 8 Commercial GUI",
+      "capture_application_version": "8.6.24101.05001",
+      "capture_command": "ViewCaptureToFile",
+      "display_mode": "Existing Line drawing style",
+      "projection": "Parallel",
+      "view_selection": "Elevated interchange selected by the user. Full ramps, supports, urban fabric, and terrain in view.",
+      "model_filename": "Overall_Site_Model.3dm",
+      "model_sha256": "336881f5258d1a0177a3d133bfe72bf4068de897a4290eaac9d01597743c1b06",
+      "model_input_unchanged": true,
+      "source_model_saved_with_view_changes": false,
+      "post_processing": false,
+      "copied_without_image_changes": true,
+      "performance_sample": false
+    }
+  ]
+}
